@@ -13,7 +13,7 @@ DROP USER MAPPING FOR postgres
 
 CREATE USER MAPPING FOR postgres
     SERVER imdb_server
-    OPTIONS (user 'postgres', password 'grace-beagle-SHAVE');
+    OPTIONS (user 'postgres', password '...');
 
 CREATE FOREIGN TABLE actors_fdw (
     name text,
